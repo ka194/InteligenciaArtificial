@@ -1,0 +1,10 @@
+import math  
+
+# Pedir el radio del círculo
+radio = float(input("Introduce el radio del círculo en metros: "))
+
+# Calcular el área del círculo usando la fórmula A = π * r^2
+area = math.pi * (radio ** 2)
+
+# Mostrar el resultado con dos decimales
+print(f"\nEl área del círculo con radio {radio:.2f} metros es: {area:.2f} metros cuadrados.")
