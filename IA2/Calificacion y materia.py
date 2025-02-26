@@ -12,15 +12,12 @@ def evaluar_calificacion(calificacion):
     else:
         return "Calificación fuera de rango"
 
-# Solicitar datos al usuario
 nombre = input("Ingresa tu nombre: ") 
 materia = input("Ingresa la materia: ")
 calificacion = int(input("Ingresa la calificación: "))
 
-# Evaluar la calificación
 mensaje = evaluar_calificacion(calificacion)
 
-# Mostrar el resultado
 print("\n--- RESULTADO ---")
 print(f"Nombre: {nombre}")
 print(f"Materia: {materia}")
